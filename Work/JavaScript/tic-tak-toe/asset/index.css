@@ -61,7 +61,7 @@ body{
     display: none;
 }
 
-@media only screen and (max-width: 530px) {
+@media screen and (max-width: 530px) {
     .game{
         height:250px;
         width:250px;
