@@ -1,0 +1,114 @@
+body{
+    background-color: olive;
+    text-align: center;
+    
+}
+.section{
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+
+}
+
+.game{
+    height:600px;
+    width:600px;
+    display: flex;
+    justify-content: center;
+      gap: 30px;
+    flex-wrap: wrap;
+
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 70px;
+    color: brown;
+    background-color: blanchedalmond;
+}
+.winnera{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#reset {
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+}
+#new-game{
+    padding: 25px;
+    background-color: black;
+    color: white;
+    font: 600;
+    font-size: 15px;
+    border-radius: 30px;
+    border: none;
+    align-self: center;
+    width: 150px;
+}
+
+.hide{
+    display: none;
+}
+
+<<<<<<< HEAD
+@media screen and (max-width: 500px) {
+=======
+@media only screen and (max-width: 530px) {
+>>>>>>> dc42135 (first)
+    .game{
+        height:250px;
+        width:250px;
+        display: flex;
+        justify-content: center;
+          gap: 20px;
+        flex-wrap: wrap;
+    
+    }
+    
+    
+    .box{
+        height: 50px;
+        width: 50px;
+        border-radius: 10px;
+        border: none;
+        font-size: 50px;
+        color: brown;
+        background-color: blanchedalmond;
+    }
+<<<<<<< HEAD
+}
+=======
+
+    #reset {
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font: 600;
+        font-size: 15px;
+        border-radius: 30px;
+        border: none;
+    }
+    #new-game{
+        padding: 10px;
+        background-color: black;
+        color: white;
+        font: 600;
+        font-size: 15px;
+        border-radius: 30px;
+        border: none;
+        align-self: center;
+        width: 150px;
+    }
+}
+>>>>>>> dc42135 (first)
