@@ -61,11 +61,7 @@ body{
     display: none;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 500px) {
-=======
 @media only screen and (max-width: 530px) {
->>>>>>> dc42135 (first)
     .game{
         height:250px;
         width:250px;
@@ -86,9 +82,6 @@ body{
         color: brown;
         background-color: blanchedalmond;
     }
-<<<<<<< HEAD
-}
-=======
 
     #reset {
         padding: 10px;
@@ -100,7 +93,7 @@ body{
         border: none;
     }
     #new-game{
-        padding: 10px;
+        padding : 10px;
         background-color: black;
         color: white;
         font: 600;
@@ -111,4 +104,3 @@ body{
         width: 150px;
     }
 }
->>>>>>> dc42135 (first)
