@@ -5,6 +5,7 @@ let playerx=false;
 let btnnew =document.querySelector("#new-game")
 let winnermsg=document.querySelector(".winnera")
 let msg=document.querySelector("#cong")
+let turn=document.querySelector(".turn")
 
 let win=[
     [0,1,2],
@@ -22,6 +23,7 @@ boxes.forEach((box) => {
       if(playerx){
         box.innerText="X";
         playerx = false
+        
       }
       else{
         box.innerText="O";
