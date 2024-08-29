@@ -17,7 +17,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
-    <title>Swapnil Telrandhe | Portfolio</title>
+    <title>Swapnil Telrandhe | Portfolio</title>    
 
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/jquery.validate.js"></script>
@@ -400,17 +400,19 @@
     <!-- my work ends -->
     <<div class="container-fluid bgImage pb-5">
         <div class="container" id="contact" style="padding-top: 3rem;">
-            <div class="row justify-content-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <div class="row justify-content-center" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-a
+            021os-duration="2000">
                 <div class="col-12 col-md-12">
                     <div class="row my-4">
                         <h2 class="text-white col-12 pt-5 border-bottom border-warning">Get In Touch</h2>
                     </div>
                     <div id="succmsg" class="col-sm-12" style="display: none;"></div>
                     <div class="line"></div>
-                     <form   action="https://formspree.io/f/mwpevjep" method="POST" class="form justify-content-between mt-5 mb-3" id="frm_contact_us" name="frm_contact_us">
+                     <form   action="https://api.web3forms.com/submit" method="POST" class="form justify-content-between mt-5 mb-3" id="frm_contact_us" name="frm_contact_us">
                         <div class="row">
+                            <input type="hidden" name="access_key" value="6b474c43-ea63-447c-97d4-da2c65384755">
                             <div class="form-group col-md-6">
-                                <input type="text" class="form-control form-box" name="txtname" id="txtname" placeholder="Name">
+                                <input  type="text" class="form-control form-box" name="txtname" id="txtname" placeholder="Name">
                             </div>
                             <div class="form-group col-md-6">
                                 <input type="email" class="form-control form-box" name="txtemail" id="txtemail" placeholder="Email">
@@ -422,7 +424,7 @@
                         <div class="form-group mb-5">
                             <textarea class="form-control form-textarea" name="ta_msg" id="ta_msg" placeholder=" Your Message" rows="8"></textarea>
                         </div>
-                        <button type="submit" name="submit" class="btn btn-outline-warning ">Send Message</button>
+                        <button type="submit" class="btn btn-outline-warning ">Send Message</button>
                     </form> 
 
                     <h2 class="text-white col-12 pt-5 border-bottom border-warning">Other Contacts</h2>
