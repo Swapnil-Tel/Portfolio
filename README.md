@@ -18,7 +18,7 @@ Responsive Design: The website is fully responsive and adapts to different scree
 
 <h3>Technologies Used</h3>
 
-Frontend: HTML5, CSS3, JavaScript, Bootstrap, jQuery, React
+Frontend: HTML5, CSS3, JavaScript, Bootstrap, jQuery
 
 Development Tools: VS Code, Git, GitHub
 
